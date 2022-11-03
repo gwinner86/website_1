@@ -1,0 +1,390 @@
+/* 
+  FONT SIZE SYSTEM (px)
+        10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+        PRIMARY COLOR : #C8E8E0
+        secondary color :#F1F9F7
+*/
+
+.header {
+  padding : 2rem;
+}
+.nav-menus {
+  display : flex;
+  justify-content : space-between;
+}
+.menu-icon {
+  border : none;
+  background :none;
+  cursor: pointer;
+}
+.mobile-nav-icon {
+  height :4.0rem;
+  width : 4.0rem;
+  color : #333;
+}
+
+/* ********************** */
+ /* HERO SECTION */
+/* ********************** */
+
+.hero-section {
+  background-color: #C8E8E0;
+  padding : 7rem 25rem;
+  margin-bottom: 8.6rem;
+}
+
+
+.hero-content { 
+   background-color :#fff;
+   margin-bottom: 9.6rem;
+}
+
+.about-us {
+    padding-left: 4rem;
+    padding-top : 8.6rem;
+}
+
+.about-us-text {
+  font-size: 1.8rem;
+  color : #808080;
+  text-transform: uppercase;
+  padding-top : 4rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 3.4rem;
+}
+
+.things-we-do {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+  margin-bottom: 3.8rem;
+}
+.things-to-do-list {
+  font-size: 2rem;
+  line-height : 1.2;
+  font-weight: 400;
+  display: flex;
+  justify-content :flex-start;
+  gap : 1rem;
+}
+
+.arrow-icons {
+  color : #F29431;
+  height:2.4rem;
+  width: 2.4rem;
+}
+
+.btn-read-more {
+  background-color: #2e937a;
+  color: #fff;
+  margin-bottom: 3.8rem;
+}
+
+.primary-heading {
+  font-size: 5.2rem;
+  font-weight: 400;
+  color: #409D86;
+  margin-bottom: 3.8rem;
+}
+
+.about-us-image {
+  background-color : #F1F9F7;
+  text-align : center;
+  padding-top: 9.6rem;
+}
+.phone-image {
+  width : 80%;
+  text-align: center;
+}
+
+
+.easy-access {
+  text-align: center;;
+}
+
+.easy-access-text { 
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.8;
+  color :#555;
+  margin: 3.8rem 15.6rem 0 15.6rem;
+  padding-bottom: 3.2rem;
+}
+.easy-access-read-more {
+  text-decoration: none;
+}
+
+
+/* ********************** */
+ /* CUSTOMER SATISFACTION SECTION */
+/* ********************** */
+
+
+.customer-satisfaction-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  font-weight: 500;
+  color :#999;
+}
+.custom-satis {
+  margin-bottom: 4.8rem;
+}
+
+.step-icon {
+  height : 4.2rem;
+  width : 4.2rem;
+  fill:#2E937A;
+  margin-bottom: 1.2rem;
+}
+
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 700;
+  color :#C8E8E0;
+  line-height: 0.8;
+
+}
+.step-content {
+  padding-left: 1.6rem;
+  position: absolute;
+  left:6%;
+  top : 65%;
+  z-index: 1 !important;
+}
+
+.step-header-text {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.step-text {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  font-weight: 300;
+  color :#555;
+  padding-top: 0.8rem;
+  z-index: 1 !important;
+}
+
+.growth-step, .timing-step,
+.planning-step,
+.invest-step,
+.graph-step,
+.global-step {
+  position: relative;
+  z-index: -1 !important;
+  margin-bottom: 9.6rem;
+}
+
+.step-role-1 {
+  margin-bottom: 9.6rem;
+}
+
+.step-role-2 {
+  margin-bottom: 9.6rem;
+}
+
+
+/* ********************** */
+ /* FEATURE SECTION */
+/* ********************** */
+
+.feature-section {
+  background-color : #C8E8E0;
+  padding: 9.6rem 0;
+  margin-bottom: 9.6rem;
+}
+.feature-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.feature-card {
+  margin-bottom :4.8rem;
+}
+.sub-title {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #409D86;
+}
+.feature-title {
+   font-weight: 500;
+   margin-bottom: 4.8rem;
+}
+.btn-more {
+  text-decoration: none;
+}
+
+.card  {
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.0.2);
+  background-color: #fff;
+  border-radius: 1.6rem;
+  padding-top: 1rem;
+  padding: 2rem 2rem 4rem 2rem;
+  text-align: center;
+}
+
+.feature-card-img {
+  height:22.8rem;
+  margin-bottom: 2rem;
+}
+
+.feature-content-text {
+  text-align: center;
+  padding:2rem;
+}
+.card-title {
+  font-size: 2rem;
+  font-weight: 500;
+  color :#2e937a;
+  margin-bottom: 2rem;
+}
+.card-text {
+  font-size :1.8rem;
+  font-weight: 400;
+  color :#555;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+.image-source-info {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color : #333;
+  text-align: center;
+}
+.link-to-images {
+  color: #333;
+}
+
+
+/* ********************** */
+ /* APP DESIGN SECTION */
+/* ********************** */
+
+.add-design {
+  margin-bottom: 9.6rem;
+}
+.design-card {
+   box-shadow: 0 1rem 2rem rgba(0,0,0,rgba(0,0,0,0.01));
+   border-radius: 3rem;
+   padding :3rem;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.design-card-pink {
+  background-color : #FBEEE0;
+}
+.design-card-green {
+  background-color : #D6EEE8;
+}
+.design-heading {
+  font-size: 2rem;
+  line-height:1.2;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing :0.4;
+}
+.design-heading-one  {
+  color :#E59846;
+}
+.design-heading-two {
+  color :#2E937A; 
+}
+.design-heading-text {
+  font-size: 4.4rem;
+  font-weight: 500;
+  line-height : 1.4;
+  letter-spacing :0.2;
+}
+
+.learn-more {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+.learn-more-green {
+  color : #2E937A;
+}
+.learn-more-orange {
+  color : #E59846;
+}
+ 
+
+/* ********************** */
+ /* ABOUT US SECTION */
+/* ********************** */
+
+
+.secondary-about-us {
+  background-color : #FCF4EB;
+  padding: 9.6rem 0;
+  margin-bottom: 9.6rem;
+}
+.secondary-about-us-header-text {
+  color: #333;
+}
+.about-us-first-paragraph-text,
+.about-us-second-paragraph-text{
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color : #555;
+  margin-bottom: 3.6rem;
+}
+
+.image-source-info-left {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color : #333;
+}
+
+.about-us-image-text {
+  text-align: center;
+}
+
+
+.secondary-about-us-image {
+  width: 20rem;
+  height:20rem;
+  border-radius: 50%;
+  border : 5px solid #A3D7CA;
+  margin-bottom: 2.4rem;
+}
+
+.secondary-about-us-image-text {
+  position: relative;
+}
+.quote-icon {
+  position : absolute;
+  top : 3%;
+  right : 50%;
+  fill : #2E937A;
+  font-size: 4rem;
+}
+
+.tertiary-heading {
+  font-size: 3.6rem;
+  font-weight: 400;
+  color : #2E937A;
+  line-height: 1.4;
+  margin-bottom: 2.4rem;
+}
+
+.btn-linkedIn { 
+   display: flex;
+   justify-content : center;
+   align-items : center;
+   gap :1.2rem;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.linedIn-icon {
+  height: 2rem;
+  width:2rem;
+}
